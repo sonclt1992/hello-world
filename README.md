@@ -1,3 +1,7 @@
+# hello world
+My first repository on Gibhub
+I love :coffee: :pizza:, 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/sonclt1992/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
