@@ -1,4 +1,9 @@
-img{
-    vertical-align: middle;
+#banner{
+    background-color: #722872 !important;
+    height: 80px;
 }
 
+#banner img{
+    height: 50px;
+    margin: 15px 0;
+}
