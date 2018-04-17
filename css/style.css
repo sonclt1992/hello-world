@@ -1,0 +1,9 @@
+.jumbotron{
+    margin-top: 20px;
+}
+.jumbotron h2{
+    font-style: italic;
+}
+.thumbnail img{
+    margin: 0 auto;
+}
