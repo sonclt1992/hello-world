@@ -1,7 +1,21 @@
+<<<<<<< Updated upstream
 #banner{
+=======
+/*#banner{
+>>>>>>> Stashed changes
     background-color: #722872 !important;
     height: 80px;
 }
+#banner .container{
+    width: 95%;
+    max-width: 1024px;
+}
+#banner img{
+    height: 50px;
+    margin: 15px 0;
+}*/
+
+
 
 #banner img{
     height: 50px;
