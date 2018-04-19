@@ -6,16 +6,26 @@ body{
 .padding-top-10{
     padding-top: 10px;
 }
+.padding-top-15{
+    padding-top: 15px;
+}
 .text-right{
     text-align: right;
 }
 .text-left{
     text-align: left;
 }
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
 
 /** ---------- **/
 /** ---------- **/
-/** Header CSS **/
+/** -------------------- Header CSS -----------------**/
 #banner{
     height: 80px;
     background-color: #722872;
@@ -23,10 +33,9 @@ body{
 #banner .container{
     width: 95%;
 }
-#banner a.navbar-brand{
-    color: white;
-    font-size: 40px;
-    font-family: fantasy;
+#banner a.navbar-brand img{
+    height: 50px;
+    margin: 0 0 15px 0;
 }
 #banner ul>li{
     text-transform: uppercase;
@@ -35,10 +44,47 @@ body{
 
 /** ---------- **/
 /** ---------- **/
-/** Main Content CSS **/
+/** ------------------ Main Content CSS -------------**/
 main header{
-    background-color: #aaa;
+    background: #aaa;
     padding: 50px 30px;
+
+}
+
+
+
+
+
+/*#main{
+    background-color: #aaa;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 1px solid;
+}
+#main #main-header{
+    text-align: right;
+    color: white;
+    margin: 50px 0 50px;
+    padding-top: 50px;
+
+}
+#main .intro-text{
+    width: 610px;
+    text-align: right;
     color: white;
 }
+hr.star-bright{
+    margin: 40px 0 30px auto;
+    max-width: 512px;
+    text-align: right;
+    border-top: solid 5px;
+}
+!*.intro-text .skills{*!
+    !*font-size: 1.15em;*!
+!*}*!
+
+#main-header img{
+    border-radius: 50%;
+    width: 250px;
+}*/
 
