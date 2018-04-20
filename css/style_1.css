@@ -9,6 +9,21 @@ body{
 .padding-top-15{
     padding-top: 15px;
 }
+.padding-top-40{
+    padding-top: 40px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
 .text-right{
     text-align: right;
 }
@@ -88,7 +103,12 @@ hr.star-dark{
     margin: 40px auto 30px;
 }
 
-
+#contact div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
 #portfolio{
     border: 1px solid;
 }
@@ -110,14 +130,34 @@ hr.star-dark{
 
 #contact{
     padding-top: 40px;
+    border: 1px solid;
 }
 #contact #contact-form{
     width: 40%;
-    /*background-color: #2aabd2;*/
+    margin-left: 80px;
 }
-#contact-form .form-item input{
-    border: 0px;
+#contact-form .form-item{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
 }
-#contact-form .form-tem{
-    border-bottom: 1px solid;
+#contact-form .form-item label{
+    display: block;
+    font-size: 0.85em;
+    opacity: 0;
+}
+#contact-form .form-item input, #contact-form .form-item textarea{
+    border: 0;
+    font-size: 1.5em;
+    width: 100%;
+    resize: none;
+}
+#contact #contact-content{
+    max-width: 38%;
+    width: 80%;
+}
+#contact #contact-content p{
+    margin-top: 35px;
+    max-width: 100%;
+
 }
