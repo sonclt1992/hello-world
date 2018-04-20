@@ -54,6 +54,9 @@ body{
     height: 80px;
 }
 
+main{
+    background-color: #888;
+}
 main header{
     padding: 50px 30px;
     background-color: #aaa;
@@ -78,7 +81,6 @@ hr.star-bright{
 span.skills{
     font-size: 23px;
 }
-
 main header img{
     border-radius: 50%;
     width: 250px;
@@ -104,10 +106,10 @@ hr.star-dark{
 }
 
 #contact div{
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    align-items: flex-start;
 }
 #portfolio{
     border: 1px solid;
@@ -161,3 +163,38 @@ hr.star-dark{
     max-width: 100%;
 
 }
+footer{
+    background-color: #aaa;
+    text-align: center;
+    color: #fff;
+}
+footer .footer-above{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+footer .footer-above .footer-left p>a{
+    color: #722872;
+}
+footer .footer-above ul>li{
+    list-style: none;
+    display: inline;
+}
+footer .footer-above ul>li>a.button{
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+}
+footer .footer-below{
+    background-color: #722872;
+    padding: 25px 0;
+}
+
