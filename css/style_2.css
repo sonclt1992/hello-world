@@ -1,0 +1,112 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+
+header#banner{
+    height: 80px;
+    background-color: #722872;
+}
+
+#banner .container a>img,
+#banner .container ul{
+    height: 50px;
+    margin: 15px 0;
+}
+#main-content{
+    margin-top: 80px;
+    background-color: #888;
+}
+#main-content .container{
+    background-color: #aaa;
+    padding: 50px 30px;
+}
+
+hr.hr-bright{
+    border-top: 5px solid;
+    max-width: 512px;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#main-header img{
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+
+#main-content #portfolio,
+#main-content #contact{
+    background-color: #eee;
+    border-bottom: 1px solid;
+}
+#portfolio h2, #contact h2, #footer-above h2{
+    font-weight: bold;
+    color: #888;
+}
+hr.hr-dark{
+    border-top: 5px solid dimgrey;
+    max-width: 512px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#portfolio ul.grid,
+#footer #footer-above ul.grid{
+    max-width: 90%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+#portfolio ul>li{
+    max-width: 420px;
+}
+#portfolio ul>li>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+hr.hr-contact, hr.hr-dark-contact{
+    max-width: 512px;
+    border-top: 1px solid gray;
+
+}
+hr.hr-dark-contact{
+    margin-top: 200px;
+}
+.contact-content span{
+    line-height: 1.5;
+}
+#contact .contact-content .contact-note{
+    margin-top: 245px;
+}
+
+#footer #footer-above{
+    background-color: #aaa;
+    color: white;
+}
+#footer-above h3{
+    font-weight: bold;
+    color: white;
+}
+
+#footer-above span a{
+    color: #722872;
+}
+#footer-above .button{
+    color: white;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
