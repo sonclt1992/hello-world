@@ -55,8 +55,7 @@ hr.hr-dark{
     margin-top: 40px;
     margin-bottom: 30px;
 }
-#portfolio ul.grid,
-#footer #footer-above ul.grid{
+#portfolio ul.grid{
     max-width: 90%;
     list-style: none;
     display: flex;
@@ -103,10 +102,32 @@ hr.hr-dark-contact{
 #footer-above span a{
     color: #722872;
 }
-#footer-above .button{
-    color: white;
-    border: 2px solid;
+
+#footer-above a.button{
     border-radius: 50%;
-    width: 50px;
+    border: 2px solid;
+    color: #fff;
     height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+}
+#footer-below{
+    text-align: center;
+    background-color: #722872;
+    padding: 25px 0;
+    color: #fff;
+}
+#footer #footer-above ul.grid{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+#footer #footer-above ul>li{
+    display: inline;
 }
