@@ -1,0 +1,26 @@
+body{
+    font-size: 16px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 1.5;
+}
+
+.navbar-header .navbar-brand{
+    color: #fff;
+}
+button.btn-unline-success{
+    color: #5cb85c;
+    background-color: transparent;
+    border-color: #5cb85c;
+}
+button.btn-unline-success:hover{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+.sidebar{
+    top: 51px;
+}
+
+.sidebar .nav{
+    margin-bottom: 15px;
+}
