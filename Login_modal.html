@@ -6,15 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style_dashboard.css">
     <link rel="sylesheet" href="css/style_general.css">
+    <link rel="stylesheet" href="css/login.css">
     <!-- JQuery -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
     <title>Document</title>
 </head>
+
 <body>
+    <button onclick="document.getElementById('mymodal').style.display='block'">Login</button>
+
+    <div class="modal" id="mymodal">
+        <span onclick="document.getElementById('mymodal').style.display='none'" class="close" title="Close Modal">X</span>
+        <form action="" id="login_form">
+            <div class="imgcontainer text-center">
+                <img src="img/avatar.jpg" alt="Avatar">
+            </div>
+            <div class="container">
+                <label for="usn">Username</label>
+                <input type="text" id="usn" placeholder="Enter Username">
+
+                <label for="pas">Password</label>
+                <input type="password" id="pas" placeholder="Enter Password">
+
+                <button type="submit" id="btnlogin" class="btn btn-success btn-block">Login</button>
+                <label><input type="checkbox" checked> Remember me</label>
+            </div>
+            <div class="container" style="background-color: #eeeeee">
+                <button type="button"  class="btn btn-danger btncancel"
+                onclick="document.getElementById('mymodal').style.display='none'">Cancel</button>
+                <span class="psw">Forgot <a href="#">password</a></span>
+            </div>
+        </form>
+    </div>
 
 
     <!-- Script  -->
